@@ -7,8 +7,6 @@ import sys
 import os
 import math
 import odps
-from odps import ODPS
-from odps.df import DataFrame
 import oss2
 import io
 from io import BytesIO
