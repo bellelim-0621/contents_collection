@@ -16,11 +16,8 @@ import gc
 from datetime import datetime
 import pandas as pd
 from http import HTTPStatus
-from dashscope import Application
-import dashscope
 import math
 import time
-from odps.df import DataFrame as ODPSDataFrame  # Important: Alias to avoid confusion with pandas
 import streamlit as st
 import pandas as pd
 import requests
