@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import pickle
-from mabwiser.mab import MAB, LearningPolicy, NeighborhoodPolicy
 from joblib import Parallel, delayed
 import joblib
 from tqdm import tqdm
