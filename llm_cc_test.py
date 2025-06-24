@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import pickle
 import time
-import json5 as json
 from datetime import datetime
 import sys
 import os
