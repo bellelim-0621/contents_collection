@@ -10,15 +10,11 @@ import io
 from io import BytesIO
 import pickle
 import warnings
-from sklearn.preprocessing import LabelEncoder
-from collections import defaultdict
 import psutil
 import gc
 import math
 import gc
 from datetime import datetime
-from odps.df import DataFrame as ODPSDataFrame  # Important: Alias to avoid confusion with pandas
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 from http import HTTPStatus
 from dashscope import Application
