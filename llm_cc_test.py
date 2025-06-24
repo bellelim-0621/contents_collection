@@ -56,21 +56,6 @@ warnings.filterwarnings("ignore")
 util_dir = os.path.abspath('/mnt/data/util')
 # Add the absolute path to the Python module search path
 sys.path.append(util_dir)
-from KMS import KMS
-kms = KMS('dsw_tngd_dw')
-accesskey,secret=kms.get_access_key_n_secret()
-
-o_dev = ODPS(
-    accesskey,
-    secret,
-    'tngd_dw_dev',
-    endpoint='http://service.ap-southeast-3.maxcompute.aliyun-inc.com/api')
-
-o_prod = ODPS(
-    accesskey,
-    secret,
-    'tngd_dw',
-    endpoint='http://service.ap-southeast-3.maxcompute.aliyun-inc.com/api')
 
 # --------------------
 # API Call Function
