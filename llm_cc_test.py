@@ -6,7 +6,6 @@ from datetime import datetime
 import sys
 import os
 import math
-import oss2
 import io
 from io import BytesIO
 import pickle
